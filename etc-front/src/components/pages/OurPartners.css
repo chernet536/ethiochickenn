@@ -1,0 +1,58 @@
+h1{
+    text-align: left;
+    margin-top:10px;
+    margin-left: 10px;
+    
+    color:#8a181b;
+  }
+.main-partners{
+  height: 400px;
+    overflow: hidden;
+    margin-left: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #ededed;
+ 
+}
+
+.partner-images {
+
+
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+ 
+  .img-container {
+    flex: 1;
+  }
+  
+  .dayoldchick,
+  .feed {
+    width: 100%;
+    height: auto;
+  }
+  .our-partner-images{
+    height: 166px;
+    width: 166px;
+  }
+  @media only screen and (max-width: 820px) {
+    .our-partner-images{
+      height: 300px;
+      width: 400px;
+      margin-bottom: 20px;
+    }
+    .partner-images {
+      display: flex;
+      flex-direction: column;
+      padding-left: 15px;
+      gap: 0;
+    }
+    
+    
+  }

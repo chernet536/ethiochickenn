@@ -1,0 +1,93 @@
+.footer-content{
+    display: flex;
+    background-color:#8a181b;
+    overflow: hidden;
+}
+.QuickAndUseful{
+    margin-top: 45px;
+    margin-left: 65px;
+    gap:85px;
+    display: flex;
+    width:43%;
+}
+.logo{
+    color:#fff;
+    margin-left:  25px;
+    margin-top:-10px ;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom:15px;
+    padding-left:25px;
+    width: 33%;
+}
+.ContactUs{
+    width: 30%;
+}
+.QuickAndUseful .QuickLinks h2{
+    color:#fcd302;
+    margin-bottom: 30px;
+}
+.QuickAndUseful .QuickLinks h2:hover{
+    text-decoration: underline;
+   
+ 
+}
+.home-link a{
+    color:#fff;
+    font-weight: lighter;
+}
+
+.QuickAndUseful .UsefulLinks h2{
+    margin-bottom: 30px;
+   color:gold;
+}
+.QuickAndUseful .UsefulLinks h2:hover{
+    text-decoration: underline;
+}
+.ContactUS{
+    margin-top: 47px;
+    margin-left: -15px;
+}
+.ContactUS h2{
+    color:#fcd302;
+    margin-bottom:25px;
+}
+.ContactUS p{
+    color:#fff;
+}
+.ContactUS h2:hover{
+    text-decoration: underline;
+}
+
+.eclogo3{
+    margin-left: -15px;
+}
+.social-media-icons{
+    margin-left: -35px;
+}
+
+@media only screen and (max-width: 820px) {
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      padding-left: 30px;
+      gap: 0;
+    }
+    .QuickAndUseful{
+        padding-left: -10px;
+    }
+    .logo{
+        width: 90%;
+    }
+    .ContactUS{
+        padding-left: 80px;
+        width: 70%;
+    }
+    .copyright{
+        padding-left: 50px;
+        width: 100%;
+        background-color: #8a181b;
+    }
+    
+  }

@@ -1,0 +1,66 @@
+.vision-image-container {
+    padding-top: 240px;
+    padding-bottom: 200px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    background-image: url('../../images/Banner_3.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    overflow: hidden;
+  }
+  .VisionTitle{
+    text-align: left;
+    margin-left:10px ;
+    font-size: 24px;
+  }
+  .MissionTitle{
+    text-align: left;
+    margin-left:10px ;
+    font-size: 24px;
+  }
+  .vision-image-container .vision-mission {
+    border-radius: 5px;
+    background-color: gold;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin-left: 60px;
+    height: 470px;
+    width: 45%;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .vision-image-container {
+      padding-top: 120px;
+      padding-bottom: 160px;
+      font-size: 60px;
+    }
+  
+    .vision-image-container .vision-mission {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin-left: 30px;
+      height: auto;
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .vision-image-container {
+      padding-top: 80px;
+      padding-bottom: 120px;
+      font-size: 40px;
+    }
+  
+    .vision-image-container .vision-mission {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-left: 15px;
+      width: 90%;
+    }
+  }

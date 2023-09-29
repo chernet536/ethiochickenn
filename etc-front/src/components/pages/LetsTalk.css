@@ -1,0 +1,20 @@
+
+.lets-talk-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.lets-talk2 {
+  padding-top: 760px;
+  overflow: hidden;
+  margin-top: -350px;
+  margin-bottom: -10px;
+  background-image: url('../../images/WHOAREWE_1.jpg');
+  background-position: bottom;
+  background-size: 1800px 400px; /* Adjust the background size as needed */
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}

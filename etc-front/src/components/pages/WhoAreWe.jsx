@@ -29,7 +29,7 @@ function WhoAreWe() {
         }
       }}
     >
-      <h1 style={{ color: '#8a181b' }}>WHO ARE WE?</h1>
+      <h1 style={{ color: '#8a181b' }}>About US</h1>
       <hr
         style={{
           width: '100%',
@@ -41,7 +41,9 @@ function WhoAreWe() {
         }}
       />
       <p style={{ fontWeight:'lighter',marginBottom: '20px' }}>
-        EthioChicken launched in 2010 with its first breeder farm, feed mill and hatchery.<br></br> In 2014, after several years of research and development, <br></br>the Company introduced the SASSO T451 is a dual-purpose (eggs and meat).
+         EthioChicken stands as one of the leading poultry companies in East Africa. <br></br>
+         The company specializes in producing and delivering improved breeds of day-old chickens 
+         (DOCs) <br></br> and blended poultry feed to its customers.
       </p>
     </div>
   );

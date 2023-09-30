@@ -30,28 +30,7 @@ The journey of EthioChicken would not have been possible without the unwavering 
       </div>
     </div>
     <div style={{marginBottom:'80px'}}></div>
-    <div className='amount-images'>
-      <div className='img-container'>
-        <img src={Think} alt='dayoldchick' className='dayoldchick' />
 
-      </div>
-    
-      <div className='img-container'>
-      <br></br> <br></br>
-         <h1>About US</h1>
-         <p style={{justifyContent:'true', textAlign:'justify',fontWeight:'lighter',paddingLeft:'30px', paddingRight:'30px'}}>
-         EthioChicken stands as one of the leading poultry companies in East Africa. 
-         The company specializes in producing and delivering improved breeds of day-old chickens 
-         (DOCs) and blended poultry feed to its customers. This initiative drives increased 
-         productivity and contributes to establishing a more reliable and diverse protein 
-         supply at the rural household level. EthioChicken distinguishes itself as the sole
-          private company in Ethiopia with an exclusive focus on serving smallholder farmers.
-           It has pioneered an innovative, economically sustainable, and replicable distribution model 
-         designed to reach rural households effectively. Through the implementation of this model, EthioChicken has successfully produced millions of day-old chickens and positively impacted countless rural households across Ethiopia.
-         </p>
-        
-      </div>
-    </div>
   </div>
   )
 }

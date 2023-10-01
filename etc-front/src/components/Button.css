@@ -1,5 +1,5 @@
 :root {
-    --primary: #1888ff;
+    --primary: #8a181b;
   }
   
   .btn {
@@ -7,10 +7,12 @@
     border-radius: 4px;
     outline: none;
     border: none;
+    margin-top: -4px;
+    font-weight: bold;
     font-size: 18px;
-    color: #fcd302;
+    color: #8a181b;
     cursor: pointer;
-    background-color: #8a181b;
+    background-color: #fff;
   }
   
   .btn:hover {
@@ -18,6 +20,7 @@
     transition: all 0.3s ease-out;
     background-color: #fcd302;
     color: #8a181b;
+    font-weight: bold;
     border-radius: 4px;
     border: 2px solid var(--primary);
     transition: all 0.3s ease-out;

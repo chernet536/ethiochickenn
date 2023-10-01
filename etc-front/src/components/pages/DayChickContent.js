@@ -5,6 +5,11 @@ import BrownEgg from '../../images/BrownEggLayer.PNG';
 import Lohmann from '../../images/lohmannbrown.PNG';
 function DayChickContent() {
   return (
+    <>
+    <div className='day-chick-explain'>
+      <h1>Day Old Chicken</h1>
+      <p> We provide a diverse range of day-old chicks. Our commitment to quality begins with <br></br> meticulous breeding and extends to rigorous grading, selection, vaccination, and biosecurity protocols <br></br> to ensure our customers are 100% satisfied.</p>
+    </div>
     <div className='container8'>
        <div className='paragraph5'>
          <img className='sasso'src={sasso} alt='no-image' />
@@ -24,8 +29,8 @@ function DayChickContent() {
 
        </div>
     </div>
+    </>
   )
 }
 
 export default DayChickContent
-

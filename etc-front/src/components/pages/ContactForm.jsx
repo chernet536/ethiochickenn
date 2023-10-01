@@ -1,95 +1,50 @@
 import React from 'react';
-
+import './ContactForm.css';
 function ContactForm() {
   return (
-    <div style={containerStyle}>
-      <div style={formContainerStyle}>
-        <h2 style={{textAlign:'center'}}>Contact Us</h2>
-        <form style={formStyle}>
-          <label style={labelStyle}>Name:</label>
-          <input type="text" style={inputStyle} />
-
-          <label style={labelStyle}>Email:</label>
-          <input type="email" style={inputStyle} />
-
-          <label style={labelStyle}>Subject:</label>
-          <input type="text" style={inputStyle} />
-
-          <label style={labelStyle}>Message:</label>
-          <textarea style={messageStyle}></textarea>
-
-          <button style={buttonStyle} type="submit">Send</button>
+    <div className='containerStyle'>
+      <div className='formContainerStyle'>
+        <h2 className='contact-us-header'>Contact Us</h2>
+        <form className='formStyle'>
+          <div className='form-part-1'>
+              <label className='labelStyle'>Name:</label>
+              <input className= 'inputStyle' type="text"/>
+          </div>
+          <div className='form-part-2'>
+               <label className='labelStyle'>Email:</label>
+              <input className= 'inputStyle' type="email"/>
+          </div>
+          
+          <div className='form-part-3'>
+              <label className='labelStyle'>Subject:</label>
+              <input className= 'inputStyle' type="text"/>
+          </div>
+          <div className='form-part-4'>
+              <label className='labelStyle'>Message:</label>
+              <textarea className='messageStyle' ></textarea>
+          </div>
+          <div className='form-part-5'>
+              <button className= 'buttonStyle' type="submit">Send</button>
+          </div>
+       
         </form>
       </div>
 
-      <div style={infoContainerStyle}>
-        <h3>Get in Touch</h3>
+      <div className='infoContainerStyle'>
+        <h3 className='get-in-touch'>Get in Touch</h3>
         <p>Address:  <br></br> Ethio China Street, Kadco Group Building #2, 6th floor, Addis Ababa Ethiopia</p>
         <p>Phone:  <br></br> +251-116-67-22-29 <br></br>+251-944-16-83-59</p>
         <p>Email: <br></br> info@ethiochicken.com</p>
-        <p>Website: <br></br> www.ethiochicken.com</p>
+        <h3 className='sales-enquiries'>For Any Sales Enquiries</h3>
+        <p>Amhara: <br></br> +251-953-59-92-62</p>
+        <p>Oromia: <br></br> +251-920-42-96-97</p>
+        <p>SNNPR: <br></br> +251-953-33-89-40</p>
+        <p>Tigray: <br></br> +251-914-15-72-19</p>
       </div>
     </div>
   );
 }
 
-// Inline CSS styles
-const containerStyle = {
-  display: 'flex',
-  flexDirection: 'row',
-  gap:'15px',
-  alignItems: 'flex-start',
-  justifyContent: 'space-between',
-  padding: '20px',
-};
-
-const formContainerStyle = {
-  width: '50%',
-};
-
-const infoContainerStyle = {
-  marginRight:'30px',
-  marginTop:'50px',
-  width: '50%',
-};
-
-const formStyle = {
-  display: 'grid',
-  gridTemplateColumns: '1fr',
-  maxWidth: '500px',
-  margin: '0 auto',
-};
-
-const labelStyle = {
-  fontWeight: 'bold',
-  marginBottom: '5px',
-};
-
-const inputStyle = {
-  marginBottom: '10px',
-  padding: '10px',
-  border: '1px solid #ccc',
-  borderRadius: '4px',
-  width: '100%',
-};
-
-const messageStyle = {
-  marginBottom: '10px',
-  padding: '10px',
-  height: '100px',
-  border: '1px solid #ccc',
-  borderRadius: '4px',
-  width: '100%',
-};
-
-const buttonStyle = {
-  padding: '10px',
-  backgroundColor: '#8a181b',
-  color: 'white',
-  border: 'none',
-  cursor: 'pointer',
-  borderRadius: '4px',
-};
 
 const infoStyle = {
   textAlign: 'center',

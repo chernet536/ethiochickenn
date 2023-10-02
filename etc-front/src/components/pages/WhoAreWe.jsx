@@ -29,7 +29,7 @@ function WhoAreWe() {
         }
       }}
     >
-      <h1 style={{ color: '#8a181b' }}>About US</h1>
+      <h1 style={{ color: '#8a181b' }}>ABOUT US</h1>
       <hr
         style={{
           width: '100%',

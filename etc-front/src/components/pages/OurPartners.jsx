@@ -11,7 +11,7 @@ function OurPartners() {
     <>
   
     <div className='main-partners'>
-      <h1>Our Partners</h1>
+      <h1 className='our-partners-title'>OUR PARTNERS</h1>
       <div className='partner-images'>
          <div className='img-container'>
             <img className='our-partner-images'  src={Bill} alt='dayoldchick'  />

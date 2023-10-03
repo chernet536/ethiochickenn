@@ -6,7 +6,7 @@ import './OurProducts.css'; // Make sure to provide the correct path to the CSS 
 function OurProducts() {
   return (
     <div className='main-product'>
-      <h1 style={{textAlign:'center'}}>Our Products</h1>
+      <h1 style={{textAlign:'center'}}>OUR PRODUCTS</h1>
       <div className='product-images'>
         <div className='img-container'>
           <img src={DayOldChick} alt='dayoldchick' className='dayoldchick' />

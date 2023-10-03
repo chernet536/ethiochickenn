@@ -1,23 +1,25 @@
-h1{
-    text-align: left;
-    margin-top:10px;
-    margin-left: 10px;
-    
-    color:#8a181b;
+
+  .our-partners-title{
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    color: #8a181b;
   }
 .main-partners{
+  
     overflow: hidden;
     margin-left: 0px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 40px;
     padding-bottom: 60px;
-    margin-top: 60px;
+    margin-top: 70px;
     margin-bottom: 20px;
     width: 100%;
     background-color: #ededed;
  
 }
+
 
 .partner-images {
 

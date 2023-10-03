@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 p{
   font-family: 'Ubuntu';
   font-weight: lighter;
+}
+.about-us-title{
+  font-family: 'Ubuntu';
+  font-weight:600;
+
 }

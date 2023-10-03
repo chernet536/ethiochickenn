@@ -18,7 +18,7 @@
 .consulting {
  
   display: flex;
-  margin-left:-30px;
+  margin-left: -30px;
   height: 90vh;
   align-items: center;
   justify-content: center;
@@ -69,16 +69,16 @@
 }*/
 
 .marketing {
-  background-image: url('./images/Chick_1.jpg');
+  background-image: url('./images/NewChick.jpg');
   background-position: center;
-  background-size: cover;
-  background-repeat: 100% 700px;
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
 
 .consulting {
-  background-image: url('./images/Feed2.jpg');
+  background-image: url('./images/NewFeed.jpg');
   background-position: bottom;
   background-size:cover;
   background-repeat: no-repeat;
@@ -87,7 +87,7 @@
 }
 @media only screen and (max-width:820px) {
   .marketing {
-    background-image: url('./images/Chick_1.jpg');
+    background-image: url('./images/NewChick.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,7 +95,7 @@
     font-size: 30px;
   }
   .consulting {
-    background-image: url('./images/Feed2.jpg');
+    background-image: url('./images/NewFeed.jpg');
     background-position: bottom;
     background-size:cover;
     background-repeat: no-repeat;

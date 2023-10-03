@@ -1,6 +1,6 @@
 .image-collection{
     display: flex;
-    margin-left:50px
+    margin-left:165px;
 }
 .image1{
     margin-left:0px;
@@ -119,8 +119,8 @@
     z-index: 2;
   }
   .core-images{
-    height: 300px;
-    width: 400px;
+      height: 200px;
+      width: 300px;
     border-radius: 8px;
   }
   h1{

@@ -4,7 +4,7 @@ const MapComponent = () => {
   return (
     <>
     <div className='container'>
-    <h1 className={{marginLeft:'300px',textAlign:'center',color:'#8a181b'}}>Our Location</h1>
+    <h1 className={{marginLeft:'300px',textAlign:'center',color:'#8a181b'}}></h1>
     </div>
   
     <div className="mapouter">

@@ -12,7 +12,7 @@
     margin-top: -270px;
     background-image: url('../../images/WHOAREWE2_1.jpg');
     background-position: bottom;
-    background-size:1600px 500px; /* Adjust the background size as needed */
+    background-size:100% 500px; /* Adjust the background size as needed */
     background-repeat: no-repeat;
   
   }

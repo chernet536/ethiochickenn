@@ -1,92 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Ubuntu:wght@300;400&display=swap');
-.Poultry-Feed{
-  margin-left: 50px;
-  margin-right: 50px;
+
+.Poultry-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; /* Set the container height to full viewport height */
 }
-.Poultry-title{
+
+.Poultry-Feed {
+  width: 70%;
+  text-align: center;
+}
+
+.Poultry-title {
   color: #8a181b;
 }
-.starter{
-  margin-left: -320px;
-  font-size: 20px;
- 
-}
-.grower{
-  margin-left: -320px;
-    font-size: 20px;
-}
-.layer{
-  margin-left: -334px;
+
+.starter {
+  text-align: center;
   font-size: 20px;
 }
+
+.grower {
+  text-align: center;
+  font-size: 20px;
+}
+
+.layer {
+  text-align: center;
+  font-size: 20px;
+}
+
 .container {
-    display: grid;
-    margin-left: 0px;
-    padding-top: 40px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 0px;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-  
-  .paragraph1,
-  .paragraph2,
-  .paragraph3 {
-    grid-column: span 1;
-  }
-  .paragraph1 h1{
-    
+  display: grid;
+  margin-left: 0px;
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 0px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 
-  }
-  .paragraph2 h1{
-  
-  }
-  .paragraph3 h1{
-  
-  }
-  .paragraph1 p{
-    font-family: 'Ubuntu';
-    font-weight: lighter;
-    font-size: 15px;
-    
-  }
-  .paragraph2 p{
-    font-family: 'Ubuntu';
-    font-weight: lighter;
-    font-size: 15px;
-  }
-  .paragraph3 p{
-    font-family: 'Ubuntu';
-    font-weight: lighter;
-    font-size: 15px;
-   
+.paragraph1,
+.paragraph2,
+.paragraph3 {
+  grid-column: span 1;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.paragraph1 h1,
+.paragraph2 h1,
+.paragraph3 h1 {
+  margin-bottom: 10px;
+}
+
+.paragraph1 p,
+.paragraph2 p,
+.paragraph3 p {
+  font-family: 'Ubuntu';
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 820px) {
+  .container {
+    width: 390px;
+    display: flex;
+    flex-direction: column;
   }
 
-  @media only screen and (max-width:820px) {
-    .container{
-      width: 390px;
-      display: flex;
-      flex-direction: column;
-    }
-    .starter{
-      margin-left: -5px;
-      font-size: 17px;
-     
-    }
-    .paragraph1 h1{
-    
-   
-     
-    }
-    .paragraph2 h1{
-        
-      margin-left: -5px;
-      font-size: 17px;
-    }
-    .paragraph3 h1{
-       
-      margin-left: -1px;
-      font-size: 17px;
-    }
+  .paragraph1 h1 {
+    margin-left: -5px;
+    font-size: 17px;
   }
+
+  .paragraph2 h1 {
+    margin-left: -5px;
+    font-size: 17px;
+  }
+
+  .paragraph3 h1 {
+    margin-left: -1px;
+    font-size: 17px;
+  }
+}

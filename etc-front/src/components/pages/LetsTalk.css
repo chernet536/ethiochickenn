@@ -6,15 +6,47 @@
   overflow: hidden;
 }
 
-.lets-talk2 {
+.lets-talk3 {
   padding-top: 760px;
   overflow: hidden;
   margin-top: -350px;
   margin-bottom: -10px;
-  background-image: url('../../images/WHOAREWE_1.jpg');
+  background-image: url('../../images/NewAboutUs.jpg');
   background-position: bottom;
-  background-size: 1800px 400px; /* Adjust the background size as needed */
+  background-size: 1800px 500px; /* Adjust the background size as needed */
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+.contact-button {
+  background-color: #8a181b;
+  color: #fcd302;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-button:hover {
+  background-color: #fcd302;
+  color: #8a181b;
+}
+@media only screen and (max-width: 820px) {
+  .lets-talk3 {
+    
+    overflow: hidden;
+
+    margin-top: -600px;
+    background-image: url('../../images/NewAboutUs.jpg');
+    background-position: bottom;
+    background-size: 100% 400px; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
 }

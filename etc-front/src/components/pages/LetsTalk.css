@@ -13,7 +13,7 @@
   margin-bottom: -10px;
   background-image: url('../../images/NewAboutUs.jpg');
   background-position: bottom;
-  background-size: 1800px 500px; /* Adjust the background size as needed */
+  background-size: 100% 500px; /* Adjust the background size as needed */
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;

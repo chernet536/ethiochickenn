@@ -155,9 +155,9 @@
     border-radius: 4px;
     width: 40%;
     height: 40%;
-    background: #8a181b;
+    background: #696868;
     text-decoration: none;
-    color: #fff;
+    color: #fcd302;
     font-size: 1rem;
   }
 
@@ -167,7 +167,7 @@
     transition: 250ms;
   }
 
-  button {
+  .btn {
     display: none;
   }
 }

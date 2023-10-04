@@ -1,15 +1,22 @@
+.core-values{
+
+  text-align: center;
+  
+}
 .image-collection{
+  justify-content: center;
+  align-items: center;
     display: flex;
-    margin-left:165px;
+   
 }
 .image1{
     margin-left:0px;
 }
 .core-values h1{
-  text-align: center;
+ 
 }
 .core-values-title{
-  text-align: center;
+
 }
 .image3{
   margin-right:25px;
@@ -119,7 +126,7 @@
     z-index: 2;
   }
   .core-images{
-      height: 250px;
+    height: 250px;
     width: 350px;
     border-radius: 8px;
   }
@@ -132,10 +139,15 @@
     .image-collection{
       display: flex;
       flex-direction: column;
+      margin-left:60px
     }
     .core-images{
-      height: 200px;
-      width: 300px;
+      height: 150px;
+      width: 250px;
       border-radius: 8px;
     }
+
+    
+
+
   }

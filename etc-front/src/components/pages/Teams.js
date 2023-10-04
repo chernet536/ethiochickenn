@@ -47,12 +47,12 @@ function Teams() {
       </div>
     </div>
     <div className='image-collection2'>
-       <div className='image7' data-text="Makeda Mekonnen">
+       <div className='image7' data-text="">
            <img src={Makeda} alt='dayoldchick' className='teams-images'/>
            <h3 style={{}}>Makeda Mekonnen</h3>
            <p>Chief of Staff</p>
        </div>
-       <div className='image8' data-text="Sean Moran">
+       <div className='image8' data-text="">
            <img src={Sean} alt='dayoldchick' className='teams-images' />
            <h3  style={{}}>Sean Moran</h3>
            <p>Supply Chain and Logistics Director</p>

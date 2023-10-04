@@ -7,14 +7,33 @@
 .All .Mission{
  flex-basis: 33%;  
  margin-right: 20px; 
+ text-align: center;
+ grid-column: span 1;
+ background-color: #f5f5f5;
+ border-radius: 8px;
+ padding: 20px;
+ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .All .Vision{
+    
     flex-basis: 33%;  
     margin-right: 20px;  
+    text-align: center;
+    grid-column: span 1;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
    }
    .All .Purpose{
     flex-basis: 33%; 
     margin-right: 20px;   
+    text-align: center;
+    grid-column: span 1;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
    }
 
    .Mission h2, .Vision h2, .Purpose h2{
@@ -27,7 +46,7 @@
 
    @media only screen and (max-width: 820px) {
     .All{
-        height: 400px;
+        width: 390px;
         display: flex;
         flex-direction: column;
     }

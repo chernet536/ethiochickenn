@@ -1,6 +1,10 @@
+.Teams{
+  text-align: center;
+}
 .image-collection2{
+  justify-content: center;
+  align-items: center;
     display: flex;
-    margin-left:165px
 }
 .image7{
     margin-left: 25px;

@@ -19,6 +19,27 @@ p{
     height: 900px;
     padding: 10px;
 }
+.one{
+    flex-basis: 33%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.two{
+    flex-basis: 33%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.three{
+  flex-basis: 33%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+}
 .Choose-Container .one{
    width: 33%;
    margin-left: 50px;
@@ -36,17 +57,17 @@ p{
 .distribution{
     height: 100px;
     width: 100px;
-    margin-left: 110px;
+ 
  }
  .distribution2{
     height: 100px;
     width: 100px;
-    margin-left: 110px;
+
  }
  .distribution3{
     height: 100px;
     width: 100px;
-    margin-left: 95px;
+   
  }
 @media only screen and (max-width: 820px) {
     .Why-Choose{
@@ -100,6 +121,9 @@ p{
         height: 120px;
         width: 120px;
         margin-left: 1px;
+     }
+     .three{
+        margin-bottom: 250px;
      }
   }
 

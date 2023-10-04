@@ -10,6 +10,7 @@
     display: flex;
     width:43%;
 }
+
 .logo{
     color:#fff;
     margin-left:  25px;
@@ -37,7 +38,9 @@
     color:#fff;
     font-weight: lighter;
 }
-
+.home-link a:hover{
+    color: #fcd302;
+}
 .QuickAndUseful .UsefulLinks h2{
     margin-bottom: 30px;
    color:gold;

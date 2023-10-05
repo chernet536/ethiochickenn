@@ -73,15 +73,7 @@ function Navbar() {
               About Us
             </Link>
           </li>
-          <li className='nav-item'>
-            <Link
-              to='/ourstrategy'
-              className={`nav-links ${location.pathname === '/ourstrategy' ? 'active' : ''}`}
-              onClick={closeMobileMenu}
-            >
-              Our Strategy
-            </Link>
-          </li>
+         
           <li className='nav-item'>
             <Link
               to='/newspage'

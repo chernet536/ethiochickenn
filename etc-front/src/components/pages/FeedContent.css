@@ -17,17 +17,17 @@
 }
 
 .starter {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
 }
 
 .grower {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
 }
 
 .layer {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
 }
 
@@ -45,7 +45,7 @@
 .paragraph1,
 .paragraph2,
 .paragraph3 {
-  text-align: center;
+  text-align: left;
   grid-column: span 1;
   background-color: #f5f5f5;
   border-radius: 8px;

@@ -7,6 +7,8 @@ function OurProducts() {
   return (
     <div className='main-product'>
       <h1 style={{textAlign:'center'}}>OUR PRODUCTS</h1>
+            <div style={{marginBottom:'30px'}}></div>
+
       <div className='product-images'>
         <div className='img-container'>
           <img src={DayOldChick} alt='dayoldchick' className='dayoldchick' />

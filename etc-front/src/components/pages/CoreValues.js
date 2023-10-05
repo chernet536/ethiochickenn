@@ -19,9 +19,9 @@ function CoreValues() {
              <img src={Discipline} alt='dayoldchick' className='core-images' />
              <h3  style={{textAlign:'center'}}>Discipline and Accountability</h3>
         </div>
-        <div className='image3' data-text="We run it like we own it">
+        <div className='image3' data-text="We run it like we own it.">
              <img src={Think} alt='dayoldchick' className='core-images'/>
-             <h3  style={{textAlign:'center'}}>Think Like and Owner</h3>
+             <h3  style={{textAlign:'center'}}>Think Like an Owner</h3>
         </div>
       </div>
       <div className='image-collection'>
@@ -29,7 +29,7 @@ function CoreValues() {
              <img src={Strive}  alt='dayoldchick' className='core-images' />
              <h3 style={{textAlign:'center'}}>Strive for excellence reject "Good enough"</h3>
          </div>
-         <div className='image2' data-text="We are driven by a deep sense of purpose">
+         <div className='image2' data-text="We are driven by a deep sense of purpose.">
              <img src={OurPurpose}  alt='dayoldchick' className='core-images'/>
              <h3  style={{textAlign:'center'}}>Our Purpose Drives Us</h3>
         </div>

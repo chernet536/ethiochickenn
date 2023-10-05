@@ -9,3 +9,42 @@ p{
   font-weight:600;
 
 }
+.who-main{
+        margin-top:-140px;
+        margin-bottom:10px;
+        margin-left:auto;
+        margin-right:auto;
+        width: 60%;
+        display: flex;
+        flex-direction :column;
+        align-items: center;
+        justify-Content: center;
+        text-align: center;
+        height: 100vh;
+}
+
+@media only screen and (max-width:768px) {
+ .who-main {
+  width: 90%;
+  margin-top: 0;
+  height: 100vh;
+ }
+}
+
+ @media only screen and (max-width:480px) {
+  .who-main {
+    width: 100%;
+    margin-top: -165px;
+    height: 100vh;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width:1680px) {
+  .who-main {
+    width: 60%;
+    margin-top: -325px;
+    margin-bottom: -325px;
+    height: 100vh;
+    padding: 10px;
+  }
+}

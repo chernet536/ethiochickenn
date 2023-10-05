@@ -3,7 +3,7 @@
   
 }
 h1{
-  margin-left: 30px;
+ 
  
   margin-bottom: 10px;
   color:#8a181b;
@@ -23,6 +23,31 @@ h1{
   width: 100%;
   height: auto;
 }
+.dayoldchick{
+  margin-bottom:-5px;
+}
+.feed{
+  margin-bottom:-5px;
+}
+.Day-old-text{
+  text-align: center;
+  color: #fcd302;
+}
+.Day-old-chicks-back{
+  padding: 20px 32px 32px 32px;
+  background-color:#8a181b ;
+}
+.feed-text{
+  
+  text-align: center;
+  color: #8a181b;
+}
+.feed-back{
+  padding: 20px 32px 32px 32px;
+  
+  background-color:#fcd302 ;
+}
+
 @media only screen and (max-width: 600px) {
   .product-images {
     display: flex;

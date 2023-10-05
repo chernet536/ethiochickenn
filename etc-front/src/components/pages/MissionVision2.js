@@ -2,6 +2,7 @@ import React from 'react'
 import './MissionVision2.css'
 function MissionVision2() {
   return (
+    <div className='allinone'>
     <div className='All'>
        <div className='Mission'>
          <h2>MISSION</h2>
@@ -10,13 +11,14 @@ function MissionVision2() {
           and create income opportunities for our customers and partners.</p>
        </div>
        <div className='Vision'>
-       <h2>VISION</h2>
-         <p>To Provide one Chicken per person per year through smallholder farmers</p>
-        </div>
+           <h2>VISION</h2>
+           <p>To provide one Chicken per person per year through smallholder farmers</p>
+       </div>
         <div className='Purpose'>
         <h2>Purpose</h2>
          <p>Making the farmers of Ethiopia healthier and wealthier</p>
         </div>
+    </div>
     </div>
   )
 }

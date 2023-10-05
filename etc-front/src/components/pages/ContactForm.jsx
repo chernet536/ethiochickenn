@@ -36,6 +36,7 @@ function ContactForm() {
         <p>Phone:  <br></br> +251-116-67-22-29 <br></br>+251-944-16-83-59</p>
         <p>Email: <br></br> info@ethiochicken.com</p>
         <h3 className='sales-enquiries'>For Any Sales Enquiries</h3>
+        <p>Addis Ababa: <br></br> +251-920-42-96-97</p>
         <p>Amhara: <br></br> +251-953-59-92-62</p>
         <p>Oromia: <br></br> +251-920-42-96-97</p>
         <p>SNNPR: <br></br> +251-953-33-89-40</p>

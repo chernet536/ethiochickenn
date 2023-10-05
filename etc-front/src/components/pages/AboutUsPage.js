@@ -12,7 +12,7 @@ function AboutUsPage() {
   return (
     <>
       <WhoAreWe2 />
-      <AboutText />
+      <div style={{marginTop:'50px'}}></div>
       <MissionVision2 />
       <CoreValues />
       <OurPartners />

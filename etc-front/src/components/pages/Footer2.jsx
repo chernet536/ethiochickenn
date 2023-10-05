@@ -5,15 +5,37 @@ import Youtube from '../../images/Artboard 5 copy 6.png';
 import Facebook from '../../images/Artboard 5 copy 5.png';
 import Telegram from '../../images/Artboard 5 copy 4.png';
 import './Footer2.css';
-import { AiOutlineLinkedin, AiOutlineMail, AiOutlineYoutube } from 'react-icons/ai';
-
+import { CiLocationOn } from 'react-icons/ci';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsTelephone } from 'react-icons/bs';
 function Footer2() {
   return (
     <>
     <div className="footer-content">
       <div className="logo">
+        <div>
         <img src={ECLOGO2} style={{ marginTop: '35px', height: '120px', width: '120px' }} alt="eclogo" className="eclogo3" />
-        <p>We’re a team of professionals who are excited to bring healthy and affordable eggs and meat to every Ethiopian family.</p>
+        </div>
+        <p className='for-fulfilled-life'>For Fulfilled Life</p>
+        
+      </div>
+      <div className="ContactUS">
+          <h3 className='contact-us-text'>Contact us</h3>
+            <div className='footer-location'>
+            <CiLocationOn style={{ fontSize: '23px', color: '#fff', marginRight:'10px' }} />
+              <p>Ethio China Street, Kadco Group Building #2,<br></br> 6th floor, Addis Ababa Ethiopia</p>
+            </div>
+            <div className='footer-email'>
+            <AiOutlineMail style={{ fontSize: '23px', color: '#fff', marginRight:'10px' }} />
+               <p>info@ethiochicken.com</p>
+            </div>
+            <div className='footer-phone'>
+            <BsTelephone style={{ fontSize: '23px', color: '#fff', marginRight:'10px' }} />
+            <p>+251-116-67-22-29 <br></br>+251-944-16-83-59</p>
+            </div>
+      </div>
+      <div className="Follow-us">
+        <h3 className='follow-us-text'>Follow us</h3>
         <div className="social-media-icons">
               <a href="https://www.linkedin.com/company/ethiochicken/">
                   <img src={LinkedIn} style={{ marginTop: '15px', height: '30px', width: '30px' }} alt="eclogo" className="eclogo" />  
@@ -29,29 +51,9 @@ function Footer2() {
                </a>
         </div>
       </div>
-      <div className="QuickAndUseful">
-        <div className="QuickLinks">
-         <h2>Quick Links</h2>
-          <li className='home-link'><a href="/">Home</a></li>
-          <li className='home-link'><a href="/marketing">Our Products</a></li>
-          <li className='home-link'><a href="/aboutuspage">About US</a></li>
-        </div>
-        <div className="UsefulLinks">
-            <h2>Useful Links</h2>
-          <li className='home-link'><a href="/ourstrategy">Our Strategy</a></li>
-          <li className='home-link'><a href="/newspage">News</a></li>
-          <li className='home-link'><a href="/JobList">Career</a></li>
-        </div>
-      </div>
-      <div className="ContactUS">
-        <h2>Contact-US</h2>
-        <p>Ethio China Street, Kadco Group Building #2, 6th floor, Addis Ababa Ethiopia</p>
-        <p>info@ethiochicken.com</p>
-        <p>+251-116-67-22-29 <br></br>+251-944-16-83-59</p>
-      </div>
     </div>
     <div className="copyright">
-    <p className='copy' style={{paddingBottom:'20px',textAlign: 'center', backgroundColor:'#8a181b',color: '#fff'}}>© Copyright 2023. EthioChicken. All rights reserved</p>
+    <p className='copy' style={{fontSize:'14px',paddingBottom:'20px',textAlign: 'center', backgroundColor:'#8a181b',color: '#fff'}}>© Copyright 2023. EthioChicken. All rights reserved</p>
     </div>
     </>
   );

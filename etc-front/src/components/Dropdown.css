@@ -1,21 +1,35 @@
 .dropdown-menu {
     z-index: 3;
-    background: #fcd302;
+  
+   
     width: 153px;
     position: absolute;
-    top: 70px;
+    top: 75px;
     list-style: none;
     text-align: start;
   }
   
+  .dropdown-menu li a{
+    color: #fcd302;
+  }
+  .dropdown-menu li a:hover{
+    z-index: 1;
+    color: #8a181b;
+    background: #fcd302;
+  }
   .dropdown-menu li {
     z-index: 1;
     margin-top: -16px;
-    background: #fcd302;
+    color: #fcd302;
+    background: #8a181b;
+  
     cursor: pointer;
   }
-  
- 
+  .dropdown-menu li:hover {
+    z-index: 1;
+    color: #8a181b;
+    background: #fcd302;
+  }
   
   .dropdown-menu.clicked {
     display: none;

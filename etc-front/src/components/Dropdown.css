@@ -1,24 +1,21 @@
 .dropdown-menu {
     z-index: 3;
-    background: #8a181b;
-    width: 200px;
+    background: #fcd302;
+    width: 153px;
     position: absolute;
-    top: 80px;
+    top: 70px;
     list-style: none;
     text-align: start;
   }
   
   .dropdown-menu li {
     z-index: 1;
-    background: #8a181b;
+    margin-top: -16px;
+    background: #fcd302;
     cursor: pointer;
   }
   
-  .dropdown-menu li:hover {
-    z-index: 1;
-    color:#8a181b;
-    background: gold;
-  }
+ 
   
   .dropdown-menu.clicked {
     display: none;
@@ -29,7 +26,7 @@
     height: 100%;
     width: 100%;
     text-decoration: none;
-    color: white;
+    color: #8a181b;
     padding: 16px;
   }
   
@@ -37,5 +34,9 @@
     .fa-caret-down {
       display: none;
     }
+    
+   
+    
+  
   }
   

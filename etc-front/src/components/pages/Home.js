@@ -16,16 +16,18 @@ export default function Home() {
     <>
       <BasicSlider />
       <WhoAreWe />
-     
+      <div style={{marginBottom:'-140px'}}></div>
+      <VisionMission />
+      <div style={{marginBottom:'225px'}}></div>
       <OurProducts />
       <div style={{marginBottom:'225px'}}></div>
       <WhyChooseUs />
       <OurPartners />
-      <div style={{marginBottom:'120px'}}></div>
-      <VisionMission />
+      <div style={{marginBottom:'21px'}}></div>
+      
       <div style={{marginBottom:'65px'}}></div>
       <IndexPage /> <br/>
-      <div style={{marginBottom:'185px'}}></div>
+      <div style={{marginBottom:'215px'}}></div>
       <LetsTalk />
       <Footer2 />
       

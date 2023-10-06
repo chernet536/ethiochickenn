@@ -21,9 +21,10 @@ function Footer2() {
       </div>
       <div className="ContactUS">
           <h3 className='contact-us-text'>Contact us</h3>
+          
             <div className='footer-location'>
-            <CiLocationOn style={{ fontSize: '23px', color: '#fff', marginRight:'10px' }} />
-              <p>Ethio China Street, Kadco Group Building #2,<br></br> 6th floor, Addis Ababa Ethiopia</p>
+              <CiLocationOn style={{ fontSize: '23px', color: '#fff', marginRight:'10px' }} />
+              <p className='footer-par'><span className='content1'>Ethio China Street, Kadco Group</span> <span className='content2'>Building #2, 6th floor,</span> <span className="content3">Addis Ababa Ethiopia</span></p>
             </div>
             <div className='footer-email'>
             <AiOutlineMail style={{ fontSize: '23px', color: '#fff', marginRight:'10px' }} />

@@ -57,7 +57,7 @@ function Navbar() {
           >
             <Link
               to='/marketing'
-              className={`nav-links ${location.pathname === '/marketing' ? 'active' : ''}`}
+              className={`nav-links ${location.pathname === '/marketing' ? 'active' : ''} && nav-links ${location.pathname === '/consulting' ? 'active' : ''} `}
               onClick={closeMobileMenu}
             >
               Our Products <i className='fas fa-caret-down' />
@@ -73,7 +73,15 @@ function Navbar() {
               About Us
             </Link>
           </li>
-         
+          <li className='nav-item'>
+            <Link
+              to='/ourstrategy'
+              className={`nav-links ${location.pathname === '/ourstrategy' ? 'active' : ''}`}
+              onClick={closeMobileMenu}
+            >
+              Our Strategy
+            </Link>
+          </li>
           <li className='nav-item'>
             <Link
               to='/newspage'
@@ -92,17 +100,17 @@ function Navbar() {
               Career
             </Link>
           </li>
-          <li>
+          <li className='nav-item'>
             <Link
               to='/sign-up'
-              className='nav-links-mobile'
+              className={`nav-links ${location.pathname === '/sign-up' ? 'active' : ''}`}
               onClick={closeMobileMenu}
             >
               Contact us
             </Link>
           </li>
         </ul>
-        <Button />
+       
       </nav>
     </>
   );

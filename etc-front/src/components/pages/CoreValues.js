@@ -9,7 +9,7 @@ import BestIdeas from '../../images/Best Idea Wins..jpg';
 function CoreValues() {
   return (
     <div className='core-values'>
-      <h1>CORE VALUES</h1>
+      <h1 className='core-values-title'>CORE VALUES</h1>
       <div className='image-collection'>
          <div className='image1' data-text="We put the Customer at the center of our decisions and actions">
              <img src={CustomerComes} alt='dayoldchick' className='core-images'/>
@@ -21,7 +21,7 @@ function CoreValues() {
         </div>
         <div className='image3' data-text="We run it like we own it">
              <img src={Think} alt='dayoldchick' className='core-images'/>
-             <h3  style={{textAlign:'center'}}>Think Like an Owner</h3>
+             <h3  style={{textAlign:'center'}}>Think Like and Owner</h3>
         </div>
       </div>
       <div className='image-collection'>
@@ -35,7 +35,7 @@ function CoreValues() {
         </div>
         <div className='image3'  data-text="We debate openly and allow the best ideas to win">
              <img src={BestIdeas} alt='dayoldchick' className='core-images'/>
-             <h3  style={{textAlign:'center'}}>Best ideas win</h3>
+             <h3  style={{textAlign:'center'}}>Best Ideas Win</h3>
         </div>
       </div>
     </div>

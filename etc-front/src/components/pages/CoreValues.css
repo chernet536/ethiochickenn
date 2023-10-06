@@ -10,8 +10,11 @@
    
 }
 .image1{
+    
     margin-left:0px;
 }
+
+
 .core-values h1{
  
 }
@@ -56,8 +59,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black; /* Text color */
-    font-size: 1.5rem;
+    color: #8a181b; /* Text color */
+    font-size: 1.1rem;
     text-align: center;
     z-index: 2;
   }
@@ -87,8 +90,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black; /* Text color */
-    font-size: 1.5rem;
+    color: #8a181b; /* Text color */
+    font-size: 1.1rem;
     text-align: center;
     z-index: 2;
   }
@@ -120,8 +123,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black; /* Text color */
-    font-size: 1.5rem;
+    color: #8a181b; /* Text color */
+    font-size: 1.1rem;
     text-align: center;
     z-index: 2;
   }

@@ -1,6 +1,6 @@
 import React from 'react'
-import Bill from '../../images/bill2.png';
-import ifc from '../../images/ifc3.png';
+import Bill from '../../images/billgatesnew.png';
+import ifc from '../../images/ifcnew.png';
 import finnfund from '../../images/finnfund2.PNG';
 import Hendrix from '../../images/Hendrix.PNG';
 import nutreco from '../../images/nutreco.PNG';
@@ -13,7 +13,7 @@ function OurPartners() {
     <div className='main-partners'>
       <h1 className='our-partners-title'>OUR PARTNERS</h1>
       <div className='partner-images'>
-         <div className='img-container'>
+         <div className='img-container imc1'>
             <img className='our-partner-images'  src={Bill} alt='dayoldchick'  />
         </div>
         <div className='img-container'>

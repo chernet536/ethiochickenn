@@ -45,8 +45,8 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/marketing" element={<Marketing />} />
-        <Route path="/login" element={<LoginPage />}/> 
-        <Route path='/register' element={<RegisterPage />} /> 
+    {/* <Route path="/login" element={<LoginPage />}/> */}  
+        {/* <Route path='/register' element={<RegisterPage />} /> */} 
         <Route path='/create' element={<CreatePost />} /> 
         <Route path="/post/:id" element={<PostPage />} />
         <Route path="/consulting" element={<Consulting />} />

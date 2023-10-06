@@ -1,10 +1,10 @@
 import React from 'react'
 import Bill from '../../images/billgatesnew.png';
 import ifc from '../../images/ifcnew.png';
-import finnfund from '../../images/finnfund2.PNG';
-import Hendrix from '../../images/Hendrix.PNG';
-import nutreco from '../../images/nutreco.PNG';
-import zoetis from '../../images/zoetis.PNG';
+import finnfund from '../../images/Logo_finnfund.jpg';
+import Hendrix from '../../images/HenNew.png';
+import nutreco from '../../images/NutrecoNew.png';
+import zoetis from '../../images/ZoetisNew.png';
 import './OurPartners.css';
 function OurPartners() {
   return (

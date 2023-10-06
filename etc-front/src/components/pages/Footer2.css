@@ -13,6 +13,13 @@
 .footer-email{
     display: flex;
 }
+.footer-par{
+
+}
+.content2::after{
+    content: "\a";
+    white-space: pre;
+}
 .footer-phone{
     display: flex;
 }
@@ -49,8 +56,8 @@
 .ContactUs{
     text-align: left;
     display: flex;
-    width: 30%;
-    flex-basis: 33%;
+ 
+    flex-basis: 40%;
 
 }
 .footer-location{
@@ -62,7 +69,7 @@
     margin-left: 100px;
     margin-top: -100px;
     
-    flex-basis: 33%;  
+    flex-basis: 26%;  
 }
 .ContactUS p{
     color: #fff;
@@ -75,14 +82,25 @@
 }
 
 
+
 @media only screen and (max-width: 820px) {
     .footer-content {
-        width: 100%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       padding-left: 0px;
       gap: 0;
     }
+    .content1::after{
+        content: "\a";
+        white-space: pre;
+    }
+     .content2::after{
+        content: "\a";
+        white-space: pre;
+    }
+
+    
     .logo{
         margin-left: -50px;
         width: 100%;

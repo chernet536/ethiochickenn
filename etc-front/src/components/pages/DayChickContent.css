@@ -23,6 +23,8 @@
   border-radius: 50%;
 }
 .day-chick-explain{
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -80,8 +82,12 @@
 }
 @media only screen and (max-width:820px) {
   .day-chick-explain{
-    text-align: justify;
-    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-left: 1px;
+    padding-right: 1px;
     margin: 10px;
   }
   .container8{

@@ -8,7 +8,7 @@ function MissionVision2() {
          <h2>MISSION</h2>
          <p>To bring healthy and affordable eggs and meat to every 
           Ethiopian family, and in doing so improve nutrition, enhance rural farmer livelihoods,
-          and create income opportunities for our customers and partners.</p>
+          and create income opportunities for our customers and partners</p>
        </div>
        <div className='Vision'>
            <h2>VISION</h2>

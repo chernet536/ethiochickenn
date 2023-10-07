@@ -12,10 +12,10 @@ function MissionVision2() {
        </div>
        <div className='Vision'>
            <h2>VISION</h2>
-           <p>To provide one Chicken per person per year through smallholder farmers</p>
+           <p>To provide one chicken per person per year through smallholder farmers</p>
        </div>
         <div className='Purpose'>
-        <h2>Purpose</h2>
+        <h2>PURPOSE</h2>
          <p>Making the farmers of Ethiopia healthier and wealthier</p>
         </div>
     </div>

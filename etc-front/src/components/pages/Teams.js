@@ -1,67 +1,63 @@
-import React from 'react'
-import './Teams.css'
-import Justin from '../../images/Justin.jpg';
-import Joseph from '../../images/Joseph.jpg';
-import Mulugeta from '../../images/Mulugeta.jpg';
-import Makeda from '../../images/Makeda.jpg';
-import Sean from '../../images/Sean.jpg';
-import DR_Fikresilassie from '../../images/Fikreselassie.jpg';
-import Yonatan from '../../images/Yonatan.jpg';
-import DR_Mulualem from '../../images/Mulualem.jpg';
-function Teams() {
+import React from 'react';
+import ECLOGO2 from '../../images/EC_LOGO_2.png';
+import LinkedIn from '../../images/Artboard 5 copy 7.png';
+import Youtube from '../../images/Artboard 5 copy 6.png';
+import Facebook from '../../images/Artboard 5 copy 5.png';
+import Telegram from '../../images/Artboard 5 copy 4.png';
+import './Footer2.css';
+import { CiLocationOn } from 'react-icons/ci';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsTelephone } from 'react-icons/bs';
+function Footer2() {
   return (
-    <div className='Teams'>
-    <h1 style={{textAlign:'center', marginTop:'30px'}}>OUR TEAM</h1>
-    <div className='image-collection2'>
-       <div className='image7' data-text="">
-           <img src={Justin} alt='dayoldchick' className='teams-images'/>
-           <h3 style={{}}>DR. Justin Benade</h3>
-           <p>Ethiopia Managing Director</p>
-       </div>
-       <div className='image8' data-text="">
-           <img src={Joseph} alt='dayoldchick' className='teams-images'/>
-           <h3  style={{}}>Mr. Joseph Chivinge</h3>
-           <p>Finance Director</p>
+    <>
+    <div className="footer-content">
+      <div className="logo">
+        <div>
+        <img src={ECLOGO2} style={{ marginTop: '35px', height: '120px', width: '120px' }} alt="eclogo" className="eclogo3" />
+        </div>
+        <p className='for-fulfilled-life'>For Fulfilled Life</p>
+        
       </div>
-      <div className='image9' data-text="">
-           <img src={Mulugeta} alt='dayoldchick' className='teams-images' />
-           <h3  style={{}}>Mr. Mulugeta Abrha</h3>
-           <p>Exports Director</p>
+      <div className="ContactUS">
+          <h3 className='contact-us-text'>Contact us</h3>
+          
+            <div className='footer-location'>
+              <CiLocationOn style={{ fontSize: '23px', color: '#fff', marginRight:'10px' }} />
+              <p className='footer-par'><span className='content1'>Ethio China Street, Kadco Group</span> <span className='content2'>Building #2, 6th floor,</span> <span className="content3">Addis Ababa, Ethiopia</span></p>
+            </div>
+            <div className='footer-email'>
+            <AiOutlineMail style={{ fontSize: '23px', color: '#fff', marginRight:'10px' }} />
+               <p>info@ethiochicken.com</p>
+            </div>
+            <div className='footer-phone'>
+            <BsTelephone style={{ fontSize: '23px', color: '#fff', marginRight:'10px' }} />
+            <p>+251-116-67-22-29 <br></br>+251-944-16-83-59</p>
+            </div>
+      </div>
+      <div className="Follow-us">
+        <h3 className='follow-us-text'>Follow us</h3>
+        <div className="social-media-icons">
+              <a href="https://www.linkedin.com/company/ethiochicken/">
+                  <img src={LinkedIn} style={{ marginTop: '15px', height: '30px', width: '30px' }} alt="eclogo" className="eclogo" />  
+              </a>
+               <a href="https://www.youtube.com/@ethiochicken4263">
+                  <img src={Youtube} style={{ marginTop: '15px', height: '30px', width: '30px' }} alt="eclogo" className="eclogo" />
+               </a>
+               <a href="https://www.facebook.com/forfulfilledlife/">
+                  <img src={Facebook} style={{ marginTop: '15px', height: '30px', width: '30px' }} alt="eclogo" className="eclogo" />
+               </a>
+               <a href="https://t.me/s/forfulfilledlife">
+                  <img src={Telegram} style={{ marginTop: '15px', height: '30px', width: '30px' }} alt="eclogo" className="eclogo" />
+               </a>
+        </div>
       </div>
     </div>
-    <div className='image-collection2'>
-       <div className='image7' data-text="">
-           <img src={DR_Mulualem} alt='dayoldchick' className='teams-images'/>
-           <h3 style={{}}>DR. Mulualem Tesfaye</h3>
-           <p>Sales Director</p>
-       </div>
-       <div className='image8' data-text="">
-           <img src={DR_Fikresilassie} alt='dayoldchick' className='teams-images' />
-           <h3  style={{}}>DR. Fikresilassie Dawit</h3>
-           <p>Production Director</p>
-      </div>
-      <div className='image9'  data-text="">
-           <img src={Yonatan} alt='dayoldchick' className='teams-images'/>
-           <h3  style={{}}>Mr. Yonatan Fseha</h3>
-           <p>Human Resource Director</p>
-      </div>
+    <div className="copyright">
+    <p className='copy' style={{fontSize:'14px',paddingBottom:'20px',textAlign: 'center', backgroundColor:'#8a181b',color: '#fff'}}>© Copyright 2023. EthioChicken. All rights reserved</p>
     </div>
-    <div className='image-collection2'>
-       <div className='image7' data-text="">
-           <img src={Makeda} alt='dayoldchick' className='teams-images'/>
-           <h3 style={{}}>Ms. Makeda Mekonnen</h3>
-           <p>Chief of Staff</p>
-       </div>
-       <div className='image8' data-text="">
-           <img src={Sean} alt='dayoldchick' className='teams-images' />
-           <h3  style={{}}>Mr. Sean Moran</h3>
-           <p>Supply Chain and Logistics Director</p>
-      </div>
-      
-    </div>
-   
-  </div>
-  )
+    </>
+  );
 }
 
-export default Teams
+export default Footer2;

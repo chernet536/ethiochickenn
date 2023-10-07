@@ -24,7 +24,7 @@ function Footer2() {
           
             <div className='footer-location'>
               <CiLocationOn style={{ fontSize: '23px', color: '#fff', marginRight:'10px' }} />
-              <p className='footer-par'><span className='content1'>Ethio China Street, Kadco Group</span> <span className='content2'>Building #2, 6th floor,</span> <span className="content3">Addis Ababa Ethiopia</span></p>
+              <p className='footer-par'><span className='content1'>Ethio China Street, Kadco Group</span> <span className='content2'>Building #2, 6th floor,</span> <span className="content3">Addis Ababa, Ethiopia</span></p>
             </div>
             <div className='footer-email'>
             <AiOutlineMail style={{ fontSize: '23px', color: '#fff', marginRight:'10px' }} />

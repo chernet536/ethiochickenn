@@ -7,12 +7,12 @@ function LetsTalk() {
    
     <div  className='lets-talk3'>
     
-    <div style={{marginTop:'-300px'}}className='lets-talk-content'>
-      <p style={{fontSize:'16px',textAlign:'left',paddingLeft:'46px'}} className='lets'>LET'S TALK</p>
-      <h1 style={{fontSize:'42px',textAlign:'left', paddingLeft:'15px', color:'#fff'}}>Need our products?</h1>
+    <div className='lets-talk-content'>
+      <p className='lets-talk-par'>LET'S TALK</p>
+      <h1 className='lets-talk-title'>Need our products?</h1>
  
-      <p style={{marginTop:'40px',fontSize:'16px', paddingLeft:'50px',marginBottom:'-30px'}} className='pro'>We’re a team of professionals who are excited to bring healthy and affordable eggs and meat to every Ethiopian family.</p>
-     <Link to={'/sign-up'}>  <button class="contact-button">Contact</button></Link>
+      <p className='lets-talk-par2'>We’re a team of professionals who are excited to bring healthy and affordable eggs and meat to every Ethiopian family.</p>
+    {/* <Link to={'/sign-up'}>  <button class="contact-button">Contact</button></Link>*/} 
     </div>
     </div>
     </>

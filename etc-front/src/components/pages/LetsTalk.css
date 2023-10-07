@@ -31,7 +31,24 @@
   margin-bottom: 20px;
   transition: background-color 0.3s ease-in-out;
 }
-
+.lets-talk-par{
+  font-size: 16px;
+  text-align: left;
+  padding-left: 46px;
+  color:#fff;
+}
+.lets-talk-title{
+  font-size: 42px;
+  text-align: left;
+  padding-left: 15px;
+  color: #fff;
+}
+.lets-talk-par2{
+  margin-top:40px ;
+  font-size: 16px;
+  padding-left: 50px;
+  margin-bottom: -30px;
+}
 .contact-button:hover {
   background-color: #fcd302;
   color: #8a181b;
@@ -40,13 +57,31 @@
   .lets-talk3 {
     
     overflow: hidden;
-
+ 
     margin-top: -600px;
     background-image: url('../../images/NewAboutUs.jpg');
     background-position: bottom;
-    background-size: 100% 400px; /* Adjust the background size as needed */
+    background-size: 100% 450px; /* Adjust the background size as needed */
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+  }
+  .lets-talk-par{
+    font-size: 14px;
+    text-align: left;
+    padding-left: 46px;
+    color:#fff;
+  }
+  .lets-talk-title{
+    font-size: 32px;
+    text-align: left;
+    padding-left: 15px;
+    color: #fff;
+  }
+  .lets-talk-par2{
+    margin-top:30px ;
+    font-size: 14px;
+    padding-left: 50px;
+    margin-bottom: -30px;
   }
 }

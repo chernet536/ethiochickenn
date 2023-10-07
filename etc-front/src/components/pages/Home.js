@@ -15,8 +15,9 @@ export default function Home() {
   return (
     <>
       <BasicSlider />
-      <WhoAreWe />
-      <div style={{marginBottom:'-140px'}}></div>
+     {/* <WhoAreWe /> */} 
+     {/*  <div style={{marginBottom:'-140px'}}></div> */}
+      <div style={{marginBottom:'50px'}}></div>
       <VisionMission />
       <div style={{marginBottom:'225px'}}></div>
       <OurProducts />

@@ -11,7 +11,7 @@ function CoreValues() {
     <div className='core-values'>
       <h1 className='core-values-title'>CORE VALUES</h1>
       <div className='image-collection'>
-         <div className='image1' data-text="We put the Customer at the center of our decisions and actions">
+         <div className='image1' data-text="We put the customer at the center of our decisions and actions">
              <img src={CustomerComes} alt='dayoldchick' className='core-images'/>
              <h3 style={{textAlign:'center'}}>The Customer Always Comes First</h3>
          </div>

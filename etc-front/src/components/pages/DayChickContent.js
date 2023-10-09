@@ -7,7 +7,7 @@ function DayChickContent() {
   return (
     <>
     <div className='day-chick-explain'>
-      <h1>Day Old Chicks</h1>
+      <h1>Day-old Chicks</h1>
       <p> We provide a diverse range of day-old chicks. Our commitment to quality begins with <br></br> meticulous breeding and extends to rigorous grading, selection, vaccination, and biosecurity protocols <br></br> to ensure our customers are 100% satisfied.</p>
     </div>
     <div className='container8'>

@@ -32,7 +32,7 @@ function ContactForm() {
 
       <div className='infoContainerStyle'>
         <h3 className='get-in-touch'>Get in Touch</h3>
-        <p>Address:  <br></br> Ethio China Street, Kadco Group Building #2, 6th floor, Addis Ababa Ethiopia</p>
+        <p>Address:  <br></br> Ethio China Street, Kadco Group Building #2, 6th floor, Addis Ababa, Ethiopia</p>
         <p>Phone:  <br></br> +251-116-67-22-29 <br></br>+251-944-16-83-59</p>
         <p>Email: <br></br> info@ethiochicken.com</p>
         <h3 className='sales-enquiries'>For Any Sales Enquiries</h3>

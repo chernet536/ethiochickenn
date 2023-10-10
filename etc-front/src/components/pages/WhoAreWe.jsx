@@ -6,20 +6,18 @@ function WhoAreWe() {
       className='who-main'
     >
       <h1 className='about-us-title'>ABOUT US</h1>
-      <hr
-        style={{
-          width: '100%',
-          marginBottom: '20px',
-          background: 'black',
-          color: 'black',
-          borderColor: 'black',
-          height: '1px'
-        }}
-      />
-      <p style={{ fontWeight:'lighter',marginBottom: '20px' }}>
-         EthioChicken stands as one of the leading poultry companies in East Africa. <br></br>
-         The company specializes in producing and delivering improved breeds of day-old chickens 
-         (DOCs) <br></br> and blended poultry feed to its customers.
+      
+      <p className='about-us-paragraph'>
+         EthioChicken stands as one of the leading poultry companies in East Africa.
+         The company specializes in producing and delivering improved  <br></br> breeds of 
+         day-old chickens(DOCs) and blended poultry feed to its customers.This initiative drives
+          increased productivity and contributes to  <br></br>establishing a more reliable and diverse 
+          protein supply at the rural household level. EthioChicken distinguishes itself as the 
+          sole private company in Ethiopia with an exclusive focus on serving smallholder farmers.
+           It has pioneered an innovative, economically sustainable, and replicable distribution
+           model designed to reach rural households effectively. Through the implementation of this model,
+            EthioChicken has successfully produced millions of day-old chickens and positively
+             impacted countless rural households across Ethiopia.
       </p>
     </div>
   );

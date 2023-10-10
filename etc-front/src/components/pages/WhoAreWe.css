@@ -6,6 +6,7 @@ p{
   font-weight: lighter;
 }
 .about-us-title{
+  margin-bottom: 10px;
   font-family: 'Ubuntu';
   font-weight:600;
 
@@ -19,7 +20,7 @@ p{
 }
 .who-main{
         margin-top:-160px;
-        margin-bottom:100px;
+        margin-bottom:120px;
         margin-left:auto;
         margin-right:auto;
         width: 80%;
@@ -30,11 +31,69 @@ p{
         text-align: center;
         height: 100vh;
 }
+@media only screen and (min-width:920px){
+  .who-main{
+    margin-top:-120px;
+    margin-bottom:-155px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+    display: flex;
+    flex-direction :column;
+    align-items: center;
+    justify-Content: center;
+    text-align: center;
+    height: 100vh;
+  }
+}
+@media only screen and (min-width:1120px){
+  .who-main{
+    margin-top:-120px;
+    margin-bottom:-175px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+    display: flex;
+    flex-direction :column;
+    align-items: center;
+    justify-Content: center;
+    text-align: center;
+    height: 100vh;
+  }
+}
+@media only screen and (min-width:1365px){
+  .about-us-title{
+    margin-bottom: 17px;
+  }
+  .who-main{
 
+    margin-top:-180px;
+    margin-bottom:-220px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+    display: flex;
+    flex-direction :column;
+    align-items: center;
+    justify-Content: center;
+    text-align: center;
+    height: 100vh;
+  }
+}
+@media only screen and (min-width:1680px) {
+  .who-main {
+    width: 70%;
+    margin-top: -280px;
+    margin-bottom: -300px;
+    height: 100vh;
+    padding: 10px;
+  }
+}
 @media only screen and (max-width:768px) {
  .who-main {
   width: 90%;
   margin-top: 130px;
+  margin-bottom: 1px;
   height: 100vh;
  }
 }
@@ -42,18 +101,12 @@ p{
  @media only screen and (max-width:480px) {
   .who-main {
     width: 100%;
-    margin-top: -30px;
-    margin-bottom: 260px;
+    margin-top: -50px;
+    margin-bottom: -240px;
     height: 100vh;
     padding: 10px;
   }
 }
-@media only screen and (min-width:1680px) {
-  .who-main {
-    width: 60%;
-    margin-top: -320px;
-    margin-bottom: -300px;
-    height: 100vh;
-    padding: 10px;
-  }
-}
+
+
+

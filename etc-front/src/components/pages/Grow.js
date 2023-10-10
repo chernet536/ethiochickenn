@@ -25,8 +25,8 @@ function Grow() {
             
                 <h1 className='counter-title'>
              {/* I  {' '}  */}  
-                {counterOn && <CountUp start={0} end={12} duration={2} delay={0}/>}
-                   <sup style={{fontSize:'25px'}}>+</sup>
+                {counterOn && <CountUp start={0} end={13} duration={2} delay={0}/>}
+                   <sup style={{fontSize:'25px'}}></sup>
                 </h1>
                 <h1 style={{marginTop:'-3px',fontSize:'16px'}}>Sites</h1>
             </div>

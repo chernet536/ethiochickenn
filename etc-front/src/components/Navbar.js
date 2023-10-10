@@ -56,8 +56,8 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/marketing'
-              className={`nav-links ${location.pathname === '/marketing' ? 'active' : ''} && nav-links ${location.pathname === '/consulting' ? 'active' : ''} `}
+              to='/DOC'
+              className={`nav-links ${location.pathname === '/DOC' ? 'active' : ''} && nav-links ${location.pathname === '/Feed' ? 'active' : ''} `}
               onClick={closeMobileMenu}
             >
               Our Products <i className='fas fa-caret-down' />
@@ -93,7 +93,7 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              to='/sign-up'
+              to='/Contact'
               className={`nav-links ${location.pathname === '/sign-up' ? 'active' : ''}`}
               onClick={closeMobileMenu}
             >

@@ -32,12 +32,12 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/aboutuspage' element={<AboutUsPage/>} />
+        <Route path='/About' element={<AboutUsPage/>} />
         <Route path='/ourstrategy' element={<OurStrategy/>} />
-        <Route path='/newspage' element={<NewsPage/>} />
+        <Route path='/News' element={<NewsPage/>} />
         <Route path='/newspage/post/:id' element={<NewsPostPage/>} />
         <Route path="/services" element={<Services />} />
-        <Route path="/JobList" element={<JobPagee />}/> 
+        <Route path="/Vacancy" element={<JobPagee />}/> 
         <Route path="/update-job/:id" element={<UpdateJobPage />}/>
         <Route path="/JobDetail/:id" element={<JobDetail />} />
         <Route path="/products" element={<Products />} />

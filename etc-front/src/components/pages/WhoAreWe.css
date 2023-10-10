@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Ubuntu:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&family=Ubuntu&display=swap');
 p{
   font-family: 'Ubuntu';
   font-weight: lighter;
@@ -9,12 +10,19 @@ p{
   font-weight:600;
 
 }
+.about-us-paragraph{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
 .who-main{
-        margin-top:-140px;
-        margin-bottom:10px;
+        margin-top:-160px;
+        margin-bottom:100px;
         margin-left:auto;
         margin-right:auto;
-        width: 60%;
+        width: 80%;
         display: flex;
         flex-direction :column;
         align-items: center;
@@ -26,7 +34,7 @@ p{
 @media only screen and (max-width:768px) {
  .who-main {
   width: 90%;
-  margin-top: 0;
+  margin-top: 130px;
   height: 100vh;
  }
 }
@@ -34,7 +42,8 @@ p{
  @media only screen and (max-width:480px) {
   .who-main {
     width: 100%;
-    margin-top: -165px;
+    margin-top: -30px;
+    margin-bottom: 260px;
     height: 100vh;
     padding: 10px;
   }
@@ -42,8 +51,8 @@ p{
 @media only screen and (min-width:1680px) {
   .who-main {
     width: 60%;
-    margin-top: -325px;
-    margin-bottom: -325px;
+    margin-top: -320px;
+    margin-bottom: -300px;
     height: 100vh;
     padding: 10px;
   }

@@ -94,7 +94,7 @@ function Navbar() {
           <li className='nav-item'>
             <Link
               to='/Contact'
-              className={`nav-links ${location.pathname === '/sign-up' ? 'active' : ''}`}
+              className={`nav-links ${location.pathname === '/Contact' ? 'active' : ''}`}
               onClick={closeMobileMenu}
             >
               Contact us

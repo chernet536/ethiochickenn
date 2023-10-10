@@ -16,7 +16,8 @@ export default function Home() {
     <>
       <BasicSlider />
      <WhoAreWe /> 
-     <div style={{marginTop:'-350px'}}></div>
+     
+     
      <Grow />
        <div style={{marginBottom:'100px'}}></div> 
      

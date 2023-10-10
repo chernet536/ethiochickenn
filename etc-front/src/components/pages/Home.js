@@ -10,14 +10,16 @@ import IndexPage from './IndexPage';
 import LetsTalk from './LetsTalk';
 import VisionMission from './VisionMission';
 import WhyChooseUs from './WhyChooseUs';
-
+import Grow from './Grow';
 export default function Home() {
   return (
     <>
       <BasicSlider />
-     {/* <WhoAreWe /> */} 
-     {/*  <div style={{marginBottom:'-140px'}}></div> */}
-      <div style={{marginBottom:'50px'}}></div>
+     <WhoAreWe /> 
+     <div style={{marginTop:'-350px'}}></div>
+     <Grow />
+       <div style={{marginBottom:'100px'}}></div> 
+     
       <VisionMission />
       <div style={{marginBottom:'225px'}}></div>
       <OurProducts />

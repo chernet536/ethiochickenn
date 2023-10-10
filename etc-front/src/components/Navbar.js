@@ -66,8 +66,8 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              to='/aboutuspage'
-              className={`nav-links ${location.pathname === '/aboutuspage' ? 'active' : ''}`}
+              to='/About'
+              className={`nav-links ${location.pathname === '/About' ? 'active' : ''}`}
               onClick={closeMobileMenu}
             >
               About Us
@@ -75,8 +75,8 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              to='/newspage'
-              className={`nav-links ${location.pathname === '/newspage' ? 'active' : ''}`}
+              to='/News'
+              className={`nav-links ${location.pathname === '/News' ? 'active' : ''}`}
               onClick={closeMobileMenu}
             >
               News
@@ -84,8 +84,8 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              to='JobList'
-              className={`nav-links ${location.pathname === '/JobList' ? 'active' : ''}`}
+              to='/Vacancy'
+              className={`nav-links ${location.pathname === '/Vacancy' ? 'active' : ''}`}
               onClick={closeMobileMenu}
             >
               Career

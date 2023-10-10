@@ -43,13 +43,13 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path='/CreateJobb' element={<CreateJobb/>}/>
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/sign-up" element={<SignUp />} />
-        <Route path="/marketing" element={<Marketing />} />
+        <Route path="/Contact" element={<SignUp />} />
+        <Route path="/DOC" element={<Marketing />} />
     {/* <Route path="/login" element={<LoginPage />}/> */}  
         {/* <Route path='/register' element={<RegisterPage />} /> */} 
         <Route path='/create' element={<CreatePost />} /> 
         <Route path="/post/:id" element={<PostPage />} />
-        <Route path="/consulting" element={<Consulting />} />
+        <Route path="/Feed" element={<Consulting />} />
         <Route path="/edit/:id" element={<EditPost />} />
       </Routes>
     </Router>

@@ -1,12 +1,12 @@
 export const MenuItems = [
     {
       title: 'Day Old Chicks',
-      path: '/marketing',
+      path: '/DOC',
       cName: 'dropdown-link'
     },
     {
       title: 'Feed',
-      path: '/consulting',
+      path: '/Feed',
       cName: 'dropdown-link'
     },
     

@@ -60,7 +60,7 @@ function JobPagee() {
   };
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/job-posts')
+    fetch(`${process.env.REACT_APP_URL}/api/job-posts`)
       .then((response) => response.json())
       .then((data) => setJobPosts(data))
       .catch((error) => console.log(error));
@@ -71,7 +71,7 @@ function JobPagee() {
   };
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:4000/api/job-posts/${id}`, { method: 'DELETE' })
+    fetch(`${process.env.REACT_APP_URL}/api/job-posts/${id}`, { method: 'DELETE' })
       .then(() => {
         const updatedJobPosts = jobPosts.filter((post) => post._id !== id);
         setJobPosts(updatedJobPosts);
@@ -81,6 +81,7 @@ function JobPagee() {
 
   return (
     <>
+    <div style={{marginTop:'100px'}}></div>
       <h1 style={{ textAlign: 'center', marginTop: '20px', marginBottom: '-40px' }}>Currently Available Positions</h1>
       <div style={styles.container}>
         {jobPosts.length === 0 ? (
@@ -132,8 +133,9 @@ function JobPagee() {
             </table>
           </div>
         )}
-        <div style={{ marginTop: '100px' }}></div>
+     <div style={{ marginTop: '530px' }}></div>
       </div>
+
       <Footer />
     </>
   );

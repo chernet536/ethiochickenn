@@ -114,16 +114,38 @@
     margin-left: 40px;
   }
 }
-@media only screen and (max-width:320px){
+@media only screen and (max-width:321px){
   .container8{
     
     display: flex;
     flex-direction: column;
   }
   .paragraph5 h1{
-    margin-left: -140px;
+    margin-left: -100px;
   }
   .paragraph6 h1{
-    margin-left: -150px;
+    margin-left: -20px;
+  }
+}
+@media only screen and (max-width:290px){
+  .day-chick-explain{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .container8{
+    
+    display: flex;
+    flex-direction: column;
+  }
+  .paragraph5 h1{
+    margin-left: -70px;
+  }
+  .paragraph6 h1{
+    margin-left: -20px;
   }
 }

@@ -8,7 +8,7 @@ export default function Post({ _id, title, summary, cover, createdAt, author }) 
     <div className="posts">
       <div className="news-image">
         <Link to={`/post/${_id}`}>
-          <img className="imagess" src={"http://localhost:4000/" + cover} alt="" />
+          <img className="imagess" src={`${process.env.REACT_APP_URL}/` + cover} alt="" />
         </Link>
       </div>
       <div className="textss">
@@ -17,7 +17,7 @@ export default function Post({ _id, title, summary, cover, createdAt, author }) 
         </Link>
         <p className="news-info">
           <a className="news-author">{author.username}</a>
-          <time className="news-time">{format(new Date(createdAt), "MMM d, yyyy HH:mm")}</time>
+      
         </p>
         <p className="news-summary">{summary}</p>
       </div>

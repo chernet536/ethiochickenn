@@ -11,6 +11,7 @@ import Footer from './Footer2'
 function AboutUsPage() {
   return (
     <>
+       <div style={{marginTop:'80px'}}></div>
       <WhoAreWe2 />
       <div style={{marginTop:'50px'}}></div>
       <MissionVision2 />

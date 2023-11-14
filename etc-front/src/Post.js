@@ -54,7 +54,7 @@ export default function Post({_id, title, summary, cover, content, createdAt, au
                 transition: 'transform 0.3s ease',
                 transform: isHovered ? 'scale(1.1)' : 'scale(1)',
               }}
-              src={'http://localhost:4000/' + cover}
+              src={`${process.env.REACT_APP_URL}/` + cover}
               alt=""
             />
           </Link>
@@ -110,15 +110,7 @@ export default function Post({_id, title, summary, cover, content, createdAt, au
             </h2>
           </Link>
           <p className="info">
-            <time
-              style={{
-                color: 'burgundy',
-                fontFamily: 'Poppins',
-                fontWeight: 'bolder',
-              }}
-            >
-              {format(new Date(createdAt), 'MMM d, yyyy HH:mm')}
-            </time>
+
           </p>
           <p
             className="summary"

@@ -6,7 +6,7 @@ import Footer from './Footer2';
 export default function Marketing() {
   return (
     <>
-      <div style={{marginTop:'-65px'}}></div>
+      <div style={{marginTop:'90px'}}></div>
       <h1 className='marketing'>Day-old Chicks</h1>
       <DayChickContent/>
       <div style={{marginTop:'100px'}}></div>

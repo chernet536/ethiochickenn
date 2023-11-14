@@ -55,6 +55,30 @@
       padding-left: 15px;
       gap: 0;
     }
+    .main-partners{
+      margin-bottom: 25px;
+    }
     
+    
+  }
+  @media only screen and (max-width:321px) {
+    .our-partners-title{
+      font-size: 24px;
+      margin-left: -4px;
+    }
+    .our-partner-images{
+      height: 130px;
+      width: 200px;
+      margin-bottom: 20px;
+    }
+    .partner-images {
+      display: flex;
+      flex-direction: column;
+      padding-left: 0px;
+      gap: 0;
+    }
+    .main-partners{
+      margin-bottom: 25px;
+    }
     
   }

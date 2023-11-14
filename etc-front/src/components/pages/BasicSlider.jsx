@@ -21,6 +21,7 @@ const slideImages = [
 ];
 
 const divStyle = {
+  marginTop:'80px',
   paddingTop:'40px',
   display: 'flex',
   alignItems:"center",

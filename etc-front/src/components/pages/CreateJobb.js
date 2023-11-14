@@ -69,7 +69,7 @@ function CreateJobb() {
   };
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/job-posts')
+    fetch(`${process.env.REACT_APP_URL}/api/job-posts`)
       .then(response => response.json())
       .then(data => setJobPosts(data))
       .catch(error => console.log(error));
@@ -82,7 +82,7 @@ function CreateJobb() {
   const handleSubmit = e => {
     e.preventDefault();
 
-    fetch('http://localhost:4000/api/job-posts', {
+    fetch(`${process.env.REACT_APP_URL}/api/job-posts`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

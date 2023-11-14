@@ -15,7 +15,7 @@ function Teams() {
     <div className='image-collection2'>
        <div className='image7' data-text="">
            <img src={Justin} alt='dayoldchick' className='teams-images'/>
-           <h3 style={{}}>DR. Justin Benade</h3>
+           <h3 style={{}}>Dr. Justin Benade</h3>
            <p>Managing Director</p>
        </div>
        <div className='image8' data-text="">
@@ -32,12 +32,12 @@ function Teams() {
     <div className='image-collection2'>
        <div className='image7' data-text="">
            <img src={DR_Mulualem} alt='dayoldchick' className='teams-images'/>
-           <h3 style={{}}>DR. Mulualem Tesfaye</h3>
+           <h3 style={{}}>Dr. Mulualem Tesfaye</h3>
            <p>Sales and Marketing Director</p>
        </div>
        <div className='image8' data-text="">
            <img src={DR_Fikresilassie} alt='dayoldchick' className='teams-images' />
-           <h3  style={{}}>DR. Fikresilassie Dawit</h3>
+           <h3  style={{}}>Dr. Fikresilassie Dawit</h3>
            <p>Production Director</p>
       </div>
       <div className='image9'  data-text="">

@@ -14,7 +14,7 @@ export default function EditJob({ match }) {
 
   const fetchJobData = async (jobId) => {
     try {
-      const response = await fetch(`http://localhost:4000/api/job-posts/${jobId}`);
+      const response = await fetch(`${process.env.REACT_APP_URL}/api/job-posts/${jobId}`);
       const data = await response.json();
       setJobData(data);
     } catch (error) {
@@ -34,7 +34,7 @@ export default function EditJob({ match }) {
     e.preventDefault();
     try {
       // Send updated job data to the server for updating
-      await fetch(`http://localhost:4000/api/job-posts/${jobId}`, {
+      await fetch(`${process.env.REACT_APP_URL}/api/job-posts/${jobId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

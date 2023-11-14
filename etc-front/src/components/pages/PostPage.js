@@ -13,7 +13,7 @@ export default function PostPage() {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:4000/post/${id}`)
+    fetch(`${process.env.REACT_APP_URL}/post/${id}`)
       .then(response => {
         response.json().then(postInfo => {
           setPostInfo(postInfo);
@@ -22,7 +22,7 @@ export default function PostPage() {
   }, [id]);
 
   const deletePost = async (postId) => {
-    const res = await fetch(`http://localhost:4000/post/${postId}`, {
+    const res = await fetch(`${process.env.REACT_APP_URL}/post/${postId}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json'
@@ -54,7 +54,7 @@ export default function PostPage() {
       </div>
       <div className='news-page-content'>
         <h1>{postInfo.title}</h1>
-        <time>{formatISO9075(new Date(postInfo.createdAt))}</time>
+
         <div className='post-page-author'>by @{postInfo.author.username}</div>
         {userInfo.id === postInfo.author._id && (
           <div className='news-top-space2'>
@@ -68,7 +68,7 @@ export default function PostPage() {
           </div>
         )}
         <div className='newspage-image1'>
-          <img className='newspage-image2' src={`http://localhost:4000/${postInfo.cover}`} alt="" />
+          <img className='newspage-image2' src={`${process.env.REACT_APP_URL}/${postInfo.cover}`} alt="" />
         </div>
         <div className='newspage-content' dangerouslySetInnerHTML={{ __html: postInfo.content }} />
       </div>

@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-
+import Footer from './Footer2';
 import { UserContext } from "../../UserContext";
 
 export default function JobDetail() {
@@ -9,7 +9,7 @@ export default function JobDetail() {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:4000/api/job-posts/${id}`)
+    fetch(`${process.env.REACT_APP_URL}/api/job-posts/${id}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch job detail");
@@ -92,6 +92,7 @@ export default function JobDetail() {
           </Link>
         )}
       </div>
+          <Footer />
     </>
   );
 }

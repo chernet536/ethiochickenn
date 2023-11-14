@@ -5,7 +5,7 @@ export default function IndexPage() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/post")
+   fetch(`${process.env.REACT_APP_URL}/post`)
       .then((response) => response.json())
       .then((data) => setPosts(data))
       .catch((error) => console.error("Error retrieving posts:", error));

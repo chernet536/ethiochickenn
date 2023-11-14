@@ -5,14 +5,16 @@
    
    
   }
-  .lets-talk-content{
+  .lets-talk-contentt{
     margin-top: -220px;
   }
-  .who-are-we-container{
-    padding-top: 330px;
+  .who-are-we-containerr{
+    margin-top: -340px;
+    padding-top: 60px;
   }
   .who-are-we-title{
-    font-size: 42px;
+    padding-top: 300px;
+    font-size: 38px;
     text-align: left;
     padding-left: 16px;
     color: #fff;
@@ -28,12 +30,11 @@
   
   .lets-talk2 {
     height: 500px;
-    margin-top: 220px;
+    margin-top: 420px;
     background-image: url('../../images/NewAboutUs.jpg');
     background-position: bottom;
-    background-size:100% 500px; /* Adjust the background size as needed */
+    background-size: cover; /* Adjust the background size as needed */
     background-repeat: no-repeat;
-  
   }
   .Who{
     font-size: 42px;
@@ -43,13 +44,28 @@
   }
   @media only screen and (max-width:820px) {
     .lets-talk2 {
-      height: 500px;
-      margin-top: 100px;
+      height:500px;
+      margin-top: -290px;
       background-image: url('../../images/NewAboutUs.jpg');
       background-position: bottom;
-      background-size:100% 400px; /* Adjust the background size as needed */
+      background-size:100% 30%; /* Adjust the background size as needed */
       background-repeat: no-repeat;
     
     }
+    .who-are-we-containerr{
+    
+    }
+    .who-are-we-title{
+      font-size: 32px;
+      text-align: left;
+      padding-left: 16px;
+      color: #fff;
+    }
+    .who-are-we-content{
+      font-size: 12px;
+      padding-left:50px;
+      color: #fff;
+    }
+    
   }
   

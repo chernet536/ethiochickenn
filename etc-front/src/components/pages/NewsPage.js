@@ -7,7 +7,7 @@ export default function NewsPage() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:4000/newspost').then(response => {
+    fetch(`${process.env.REACT_APP_URL}/newspost`).then(response => {
       response.json().then(posts => {
         setPosts(posts);
       });
@@ -16,6 +16,7 @@ export default function NewsPage() {
 
   return (
     <>
+    <div style={{marginTop:'100px'}}></div>
       <div className="news-page">
         <h1>News Archive</h1>
       </div>

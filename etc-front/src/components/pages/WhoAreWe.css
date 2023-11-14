@@ -9,7 +9,6 @@ p{
   margin-bottom: 10px;
   font-family: 'Ubuntu';
   font-weight:600;
-
 }
 .about-us-paragraph{
   text-align: center;
@@ -106,7 +105,28 @@ p{
     height: 100vh;
     padding: 10px;
   }
+  
+   
 }
 
+@media only screen and (max-width:361px) {
+  .who-main {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: -60px;
+    height: 100vh;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width:260px) {
+  .who-main {
+    width: 100%;
+    margin-left: -5px;
+    margin-top: 270px;
+    margin-bottom: 250px;
+    height: 100vh;
+    padding: 10px;
+  }
+}
 
 

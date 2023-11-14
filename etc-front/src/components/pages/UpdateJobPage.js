@@ -7,7 +7,7 @@ export default function UpdateJobPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`http://localhost:4000/api/job-posts/${id}`)
+    fetch(`${process.env.REACT_APP_URL}/api/job-posts/${id}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch job detail");
@@ -26,7 +26,7 @@ export default function UpdateJobPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch(`http://localhost:4000/api/job-posts/${id}`, {
+    fetch(`${process.env.REACT_APP_URL}/api/job-posts/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

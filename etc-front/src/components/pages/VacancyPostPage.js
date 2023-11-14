@@ -13,7 +13,7 @@ export default function VacancyPostPage() {
   const {id} = useParams();
  
   useEffect(() => {
-    fetch(`http://localhost:4000/vacancy/job/${id}`)
+    fetch(`${process.env.REACT_APP_URL}/vacancy/job/${id}`)
       .then(response => {
         response.json().then(jobInfo => {
           setJobInfo(jobInfo);
@@ -22,7 +22,7 @@ export default function VacancyPostPage() {
   }, []);
   const deletejob = async (id) => {
   
-    const res2 = await fetch(`http://localhost:4000/jobs/${jobInfo._id}`, {
+    const res2 = await fetch(`${process.env.REACT_APP_URL}/jobs/${jobInfo._id}`, {
         method: "DELETE",
         headers: {
             "Content-Type": "application/json"

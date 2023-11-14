@@ -54,7 +54,7 @@ function Footer2() {
       </div>
     </div>
     <div className="copyright">
-    <p className='copy' style={{fontSize:'14px',paddingBottom:'20px',textAlign: 'center', backgroundColor:'#8a181b',color: '#fff'}}>© Copyright 2023. EthioChicken. All rights reserved</p>
+    <p className='copy' style={{fontSize:'14px',paddingBottom:'20px', marginBottom:'0px', textAlign: 'center', backgroundColor:'#8a181b',color: '#fff'}}>© Copyright 2023. EthioChicken. All rights reserved</p>
     </div>
     </>
   );
